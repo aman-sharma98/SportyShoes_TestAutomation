@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="ExpectedProduct" value="ABC Product"/>
+    <parameter name="ExpectedProductinOrder" value="ABC Product, 1 units @134.00 = 134.00"/>
+    <parameter name="Email" value="absdsnsgsdmddggjhks@gmgsail.com"/>
+    <parameter name="Address" value="Remote"/>
+    <parameter name="CorrectPassword" value="Abc@12345"/>
+    <parameter name="FirstName" value="Amana"/>
+    <parameter name="LastName" value="Sharmaa"/>
+    <parameter name="WrongEmail" value="abgail.com"/>
+    <parameter name="Age" value="23"/>
+    <parameter name="Password" value="hh@32"/>
+    <classes>
+      <class name="Tests.SignupTest">
+        <methods>
+          <include name="ReportTearDown"/>
+          <include name="setup"/>
+          <include name="ReportSetup"/>
+          <include name="PositivesignupTest" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Tests.SignupTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="9" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8483" started-at="2021-12-29T17:47:26Z" finished-at="2021-12-29T17:47:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8483" started-at="2021-12-29T17:47:26Z" finished-at="2021-12-29T17:47:35Z">
+      <class name="Tests.SignupTest">
+        <test-method status="PASS" signature="ReportSetup()[pri:0, instance:Tests.SignupTest@7e0e6aa2]" name="ReportSetup" is-config="true" duration-ms="105" started-at="2021-12-29T17:47:26Z" finished-at="2021-12-29T17:47:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignupTest@7e0e6aa2]" name="setup" is-config="true" duration-ms="926" started-at="2021-12-29T17:47:26Z" finished-at="2021-12-29T17:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NegativeSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.SignupTest@7e0e6aa2]" name="NegativeSignup" duration-ms="850" started-at="2021-12-29T17:47:27Z" finished-at="2021-12-29T17:47:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abgail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aman]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Remote]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeSignup -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.SignupTest@7e0e6aa2]" name="teardown" is-config="true" duration-ms="67" started-at="2021-12-29T17:47:28Z" finished-at="2021-12-29T17:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignupTest@7e0e6aa2]" name="setup" is-config="true" duration-ms="671" started-at="2021-12-29T17:47:28Z" finished-at="2021-12-29T17:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PositivesignupTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.SignupTest@7e0e6aa2]" name="PositivesignupTest" duration-ms="814" started-at="2021-12-29T17:47:29Z" finished-at="2021-12-29T17:47:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amanS@cisco.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aman]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Remote]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PositivesignupTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.SignupTest@7e0e6aa2]" name="teardown" is-config="true" duration-ms="71" started-at="2021-12-29T17:47:30Z" finished-at="2021-12-29T17:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="ReportTearDown()[pri:0, instance:Tests.SignupTest@7e0e6aa2]" name="ReportTearDown" is-config="true" duration-ms="238" started-at="2021-12-29T17:47:35Z" finished-at="2021-12-29T17:47:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportTearDown -->
+      </class> <!-- Tests.SignupTest -->
+      <class name="Tests.CompleteOrderandValidateTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.CompleteOrderandValidateTest@18bf3d14]" name="setup" is-config="true" duration-ms="783" started-at="2021-12-29T17:47:32Z" finished-at="2021-12-29T17:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CompleteOrderandValidate(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.CompleteOrderandValidateTest@18bf3d14]" name="CompleteOrderandValidate" duration-ms="1307" started-at="2021-12-29T17:47:33Z" finished-at="2021-12-29T17:47:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amanS@cisco.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ABC Product]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ABC Product, 1 units @134.00 = 134.00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompleteOrderandValidate -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.CompleteOrderandValidateTest@18bf3d14]" name="teardown" is-config="true" duration-ms="68" started-at="2021-12-29T17:47:34Z" finished-at="2021-12-29T17:47:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.CompleteOrderandValidateTest -->
+      <class name="Tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginTest@365185bd]" name="setup" is-config="true" duration-ms="802" started-at="2021-12-29T17:47:30Z" finished-at="2021-12-29T17:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NegativeLogin(java.lang.String, java.lang.String)[pri:0, instance:Tests.LoginTest@365185bd]" name="NegativeLogin" duration-ms="369" started-at="2021-12-29T17:47:31Z" finished-at="2021-12-29T17:47:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amanS@cisco.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hh@32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.LoginTest@365185bd]" name="teardown" is-config="true" duration-ms="66" started-at="2021-12-29T17:47:31Z" finished-at="2021-12-29T17:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginTest@365185bd]" name="setup" is-config="true" duration-ms="851" started-at="2021-12-29T17:47:31Z" finished-at="2021-12-29T17:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="positiveLogin(java.lang.String, java.lang.String)[pri:0, instance:Tests.LoginTest@365185bd]" name="positiveLogin" duration-ms="401" started-at="2021-12-29T17:47:32Z" finished-at="2021-12-29T17:47:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amanS@cisco.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.LoginTest@365185bd]" name="teardown" is-config="true" duration-ms="66" started-at="2021-12-29T17:47:32Z" finished-at="2021-12-29T17:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
